@@ -21,7 +21,7 @@
         android:id="@+id/studentName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Joemrich Jovin N. Salcedo"
+        android:text="Joemrich Jovin Nipa Salcedo"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
@@ -31,7 +31,7 @@
         android:id="@+id/studentBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="We Find Ways."
+        android:text="Just do it"
         android:textSize="16sp"
         android:gravity="center"/>
 
