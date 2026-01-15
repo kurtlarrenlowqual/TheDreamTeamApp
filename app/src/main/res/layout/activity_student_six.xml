@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Student Photo -->
+    <ImageView
+        android:id="@+id/studentImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/student_two_photo"
+        android:contentDescription="Student Photo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Student Name -->
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donalyn Orbino Talingdan"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Student Bio -->
+    <TextView
+        android:id="@+id/studentBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a short bio about Student Six. It can describe hobbies, skills, or role in the team."
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+</LinearLayout>
