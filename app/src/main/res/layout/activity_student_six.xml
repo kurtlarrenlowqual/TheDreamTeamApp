@@ -31,7 +31,7 @@
         android:id="@+id/studentBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is a short bio about Student Six. It can describe hobbies, skills, or role in the team."
+        android:text="We find ways"
         android:textSize="16sp"
         android:gravity="center"/>
 
